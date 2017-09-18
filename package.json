@@ -12,11 +12,17 @@
   "bugs": {
     "url": "https://github.com/abpetkov/switchery/issues"
   },
+  "scripts": {
+    "test": "mocha"
+  },
   "devDependencies": {
-    "uglify-js": "~2.4.8",
+    "chai": "^4.1.2",
     "component": "^1.0.0",
-    "uglifycss": "0.0.7",
     "grunt-exec": "latest",
-    "spacejam": "latest"
+    "jsdom": "^11.2.0",
+    "mocha": "^3.5.3",
+    "spacejam": "latest",
+    "uglify-js": "~2.4.8",
+    "uglifycss": "0.0.7"
   }
 }
